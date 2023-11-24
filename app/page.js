@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main class="mx-6 my-4 grid grid-cols-1">
+    <main class="mx-6 grid grid-cols-1">
       <section class="grid h-[100vh] md:h-[80vh] grid-cols-1 md:grid-cols-12 gap-4">
         <div class="md:col-span-4 rounded-lg bg-slate-300">
           <div class="flex flex-col px-2 py-2 md:py-4"></div>
