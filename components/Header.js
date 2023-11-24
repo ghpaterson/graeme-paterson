@@ -25,7 +25,7 @@ export default function NavBar() {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <header className="sticky top-0 z-20 pb-2">
+    <header className="sticky top-0 z-20 py-4 px-10 bg-white">
       <div className="flex justify-between h-14 w-full items-center relative">
         <div id="logo">
           <Link href={"/"}>
