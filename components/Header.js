@@ -29,7 +29,7 @@ export default function NavBar() {
       <div className="flex justify-between h-14 w-full items-center relative">
         <div id="logo">
           <Link href={"/"}>
-            <h1 onClick={closeMenu} className="text-3xl w-60 z-0 pt-2 md:px-4">
+            <h1 onClick={closeMenu} className="text-xl w-60 z-0 pt-2 md:px-4">
               GP
             </h1>
           </Link>
@@ -46,7 +46,7 @@ export default function NavBar() {
             isMenuOpen ? "flex justify-center bg-white h-screen" : "hidden"
           } z-10`}
         >
-          <ul className="flex flex-col items-center gap-8 md:flex-row md:items-center text-2xl md:text-lg md:py-0 py-10 md:px-6 cursor-pointer">
+          <ul className="flex flex-col items-center gap-8 md:flex-row md:items-center text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">
             <NavLink path="#" text="Work" closeMenu={closeMenu} />
             <NavLink path="#" text="About" closeMenu={closeMenu} />
             <NavLink path="#" text="Contact" closeMenu={closeMenu} />
