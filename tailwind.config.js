@@ -2,6 +2,9 @@
 
 const portrait = "url('/images/portrait-cropped.png')";
 const bicyle = "url('/images/bicycle.png')";
+const farm = "url('/images/Fence.JPG')";
+const picnic = "url('/images/picnic.JPG')";
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -16,6 +19,8 @@ module.exports = {
       backgroundImage: {
         Portrait: portrait,
         Bicycle: bicyle,
+        Farm: farm,
+        Picnic: picnic,
       },
     },
   },
