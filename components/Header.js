@@ -47,7 +47,7 @@ export default function NavBar() {
           } z-10`}
         >
           <ul className="flex flex-col items-center gap-8 md:flex-row md:items-center text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">
-            <NavLink path="#" text="Work" closeMenu={closeMenu} />
+            <NavLink path="#" text="Projects" closeMenu={closeMenu} />
             <NavLink path="#" text="About" closeMenu={closeMenu} />
             <NavLink path="#" text="Contact" closeMenu={closeMenu} />
           </ul>
