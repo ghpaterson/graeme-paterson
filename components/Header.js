@@ -25,7 +25,7 @@ export default function NavBar() {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <header className="sticky top-0 z-20 py-4 px-10 bg-white">
+    <header className="sticky top-0 z-20 py-4 md:px-10 bg-white">
       <div className="flex justify-between h-14 w-full items-center relative">
         <div id="logo">
           <Link href={"/"}>
@@ -46,7 +46,7 @@ export default function NavBar() {
             isMenuOpen ? "flex justify-center bg-white h-screen" : "hidden"
           } z-10`}
         >
-          <ul className="flex flex-col items-center gap-8 md:flex-row md:items-center text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">
+          <ul className="flex flex-col items-center w-screen gap-8 md:flex-row md:items-center text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">
             <NavLink path="#" text="Projects" closeMenu={closeMenu} />
             <NavLink path="#" text="About" closeMenu={closeMenu} />
             <NavLink path="#" text="Contact" closeMenu={closeMenu} />
