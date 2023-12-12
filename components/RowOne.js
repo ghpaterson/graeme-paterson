@@ -10,7 +10,7 @@ export default function RowOne() {
   return (
     <section
       id="row-one"
-      className="grid h-[100h] md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 md:my-4"
+      className="grid h-[100h] md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 my-4"
     >
       <div className="group md:col-span-4 rounded-lg bg-slate-300 overflow-hidden">
         <div className="flex justify-between py-4 px-4 items-center">
@@ -33,7 +33,7 @@ export default function RowOne() {
             <BsArrowUpRightCircle className="text-xl" />
           </Link>
         </div>
-        <div className="flex flex-col justify-end  gap-4">
+        <div className="flex flex-col justify-end  gap-2 md:gap-4 pt-4">
           <h1 className="text-2xl">{"BRUTALism (2003)"}</h1>
           <h2 className="text-xl text-gray-700">April 22, 2023</h2>
           <p>
@@ -52,8 +52,8 @@ export default function RowOne() {
           height={200}
           className="mt-6 mb-4"
         />
-        <h2 className="text-2xl">The Rabbit That Hunts Tigers</h2>
-        <h3 className="text-xl text-gray-700">Yin Yin</h3>
+        <h2 className="text-lg md:text-2xl">The Rabbit That Hunts Tigers</h2>
+        <h3 className="text-md md:text-xl text-gray-700">Yin Yin</h3>
         <h4>2019</h4>
       </div>
     </section>
