@@ -11,7 +11,7 @@ export default function RowThree() {
       id="row-three"
       className="grid md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 my-4"
     >
-      <div className=" md:col-span-4 rounded-lg bg-slate-300 px-4 py-4 md:py-0">
+      <div className=" md:col-span-4 rounded-lg bg-melon/30 hover:bg-melon px-4 py-4 md:py-0">
         <div className="flex justify-between py-4 items-center">
           <h1>Hobbies - Cooking</h1>
           <Link href={alldayGoodsURL} target="_blank">
@@ -33,15 +33,15 @@ export default function RowThree() {
           </div>
         </div>
       </div>
-      <div className=" md:col-span-4 rounded-lg bg-slate-400 flex flex-col justify-between">
+      <div className=" md:col-span-4 rounded-lg bg-sand/30 hover:bg-sand flex flex-col justify-between">
         <div className="flex justify-between py-4 px-4 items-center">
           <h1>Hobbies - Photography</h1>
         </div>
         <div className="w-full h-44 md:h-[90%] bg-Picnic bg-cover rounded-md"></div>
       </div>
-      <div className="group md:col-span-4 rounded-lg bg-slate-500 overflow-hidden">
+      <div className="group md:col-span-4 rounded-lg bg-moss/30 hover:bg-moss overflow-hidden">
         <div className="flex justify-between py-4 px-4 items-center">
-          <h1>Projects - Decode Care</h1>
+          <h1>Projects - Jack's SpellQuest</h1>
           <Link href={questURL} target="_blank">
             <BsArrowUpRightCircle className="text-xl" />
           </Link>
@@ -49,7 +49,7 @@ export default function RowThree() {
         <Image
           src={questPhone}
           width={200}
-          alt="Bloggy Phone"
+          alt="SpellQuest Phone"
           className=" -rotate-20 mt-6 ml-20 md:ml-40 group-hover:scale-110 transition-transform"
         />
       </div>

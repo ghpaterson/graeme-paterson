@@ -22,6 +22,13 @@ module.exports = {
         Farm: farm,
         Picnic: picnic,
       },
+      colors: {
+        bone: "#F6F6F6",
+        moss: "#E7F1BB",
+        thistle: "#D5C3D5",
+        melon: "#EDB7AB",
+        sand: "#EED0B6",
+      },
     },
   },
   plugins: [],

@@ -12,8 +12,8 @@ export default function RowOne() {
       id="row-one"
       className="grid h-[100h] md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 my-4"
     >
-      <div className="group md:col-span-4 rounded-lg bg-slate-300 overflow-hidden">
-        <div className="flex justify-between py-4 px-4 items-center">
+      <div className="group md:col-span-4 rounded-lg bg-thistle/30 hover:bg-thistle overflow-hidden">
+        <div className="flex justify-between py-4 px-6 items-center ">
           <h1>Projects - Mister Bloggy</h1>
           <Link href={bloggyURL} target="_blank">
             <BsArrowUpRightCircle className="text-xl" />
@@ -26,7 +26,7 @@ export default function RowOne() {
           className=" -rotate-20 mt-6 ml-20 md:ml-40 group-hover:scale-110 transition-transform"
         />
       </div>
-      <div className=" md:col-span-4 rounded-lg bg-slate-400 px-4 flex flex-col justify-between py-4">
+      <div className=" md:col-span-4 rounded-lg bg-sand/30 hover:bg-sand px-4 flex flex-col justify-between py-4">
         <div className="flex justify-between items-center">
           <h1>Writing - Blog</h1>
           <Link href={headlessBlogURL} target="_blank">
@@ -43,7 +43,7 @@ export default function RowOne() {
           </p>
         </div>
       </div>
-      <div className=" md:col-span-4 rounded-lg bg-slate-200 px-4 flex flex-col py-4">
+      <div className=" md:col-span-4 rounded-lg bg-melon/30 hover:bg-melon px-4 flex flex-col py-4">
         <h1>Listening - Albums</h1>
         <Image
           src="/images/YinYin.jpeg"

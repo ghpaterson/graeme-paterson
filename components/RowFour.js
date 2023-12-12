@@ -8,7 +8,7 @@ export default function RowFour() {
       id="row-four"
       className="grid md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4"
     >
-      <div className=" md:col-span-4 rounded-lg bg-slate-300 px-4 py-4">
+      <div className=" md:col-span-4 rounded-lg bg-thistle/30 hover:bg-thistle px-4 py-4">
         <h1>Listening - Albums</h1>
         <Image
           src="/images/RawDataFeel.webp"
@@ -23,7 +23,7 @@ export default function RowFour() {
         </h3>
         <h4>2022</h4>
       </div>
-      <div className=" md:col-span-8 rounded-lg bg-slate-400 flex flex-col justify-between">
+      <div className=" md:col-span-8 rounded-lg bg-melon/30 hover:bg-melon flex flex-col justify-between">
         <div className="flex justify-between py-4 px-4 items-center">
           <h1>Hobbies - Photography</h1>
         </div>
