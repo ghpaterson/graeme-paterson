@@ -46,7 +46,7 @@ export default function NavBar() {
             isMenuOpen ? "flex justify-center bg-white h-screen" : "hidden"
           } z-10`}
         >
-          <ul className="flex flex-col items-center w-screen gap-8 md:flex-row md:items-center text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">
+          <ul className="bg-red-200 flex flex-col items-center w-screen gap-8 md:flex-row md:items-center md:justify-end text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">
             <NavLink path="#" text="Projects" closeMenu={closeMenu} />
             <NavLink path="#" text="About" closeMenu={closeMenu} />
             <NavLink path="#" text="Contact" closeMenu={closeMenu} />
