@@ -22,6 +22,9 @@ module.exports = {
         Farm: farm,
         Picnic: picnic,
       },
+      fontFamily: {
+        neuton: ["Neuton", "serif"],
+      },
       colors: {
         bone: "#F6F6F6",
         moss: "#E7F1BB",

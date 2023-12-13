@@ -29,7 +29,10 @@ export default function NavBar() {
       <div className="flex justify-between h-14 w-full items-center relative">
         <div id="logo">
           <Link href={"/"}>
-            <h1 onClick={closeMenu} className="text-xl w-60 z-0 pt-2 md:px-4">
+            <h1
+              onClick={closeMenu}
+              className="text-3xl w-60 z-0 pt-2 md:px-4 font-neuton"
+            >
               GP
             </h1>
           </Link>
@@ -43,7 +46,7 @@ export default function NavBar() {
         <nav
           id="navbar"
           className={`md:flex md:justify-end md:items-center absolute top-full right-0 md:py-0 w-full md:w-[800px] py-6 md:-mt-10 ${
-            isMenuOpen ? "flex justify-center bg-white h-screen" : "hidden"
+            isMenuOpen ? "flex justify-center bg-bone h-screen" : "hidden"
           } z-10`}
         >
           <ul className="flex flex-col items-center w-screen gap-8 md:flex-row md:items-center md:justify-end text-2xl md:text-base md:py-0 py-10 md:px-6 cursor-pointer">

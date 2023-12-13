@@ -11,11 +11,11 @@ export default function RowThree() {
       id="row-three"
       className="grid md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 my-4"
     >
-      <div className=" md:col-span-4 rounded-lg bg-melon/30 hover:bg-melon px-4 py-4 md:py-0">
+      <div className="group md:col-span-4 rounded-lg bg-melon/30 hover:bg-melon px-4 py-4 md:py-0">
         <div className="flex justify-between py-4 items-center">
           <h1>Hobbies - Cooking</h1>
           <Link href={alldayGoodsURL} target="_blank">
-            <BsArrowUpRightCircle className="text-xl" />
+            <BsArrowUpRightCircle className="text-xl group-hover:scale-110" />
           </Link>
         </div>
         <div className="flex mt-10 md:mt-20 gap-6 items-end">
@@ -27,7 +27,9 @@ export default function RowThree() {
             className="rounded-lg"
           />
           <div className="flex flex-col">
-            <h1 className="text-xl md:text-2xl py-2">Allday Goods</h1>
+            <h1 className="text-xl md:text-3xl py-2 font-neuton">
+              Allday Goods
+            </h1>
             <p>Kitchen Knives</p>
             <p>Made from Plastic Waste</p>
           </div>
@@ -43,7 +45,7 @@ export default function RowThree() {
         <div className="flex justify-between py-4 px-4 items-center">
           <h1>Projects - Jack's SpellQuest</h1>
           <Link href={questURL} target="_blank">
-            <BsArrowUpRightCircle className="text-xl" />
+            <BsArrowUpRightCircle className="text-xl group-hover:scale-110" />
           </Link>
         </div>
         <Image
