@@ -12,7 +12,7 @@ export default function RowThree() {
       className="grid md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 my-4"
     >
       <div className="group md:col-span-4 rounded-lg bg-melon/30 hover:bg-melon px-4 py-4 md:py-0">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between md:py-4 items-center">
           <h1>Hobbies - Cooking</h1>
           <Link href={alldayGoodsURL} target="_blank">
             <BsArrowUpRightCircle className="text-xl group-hover:scale-110" />
