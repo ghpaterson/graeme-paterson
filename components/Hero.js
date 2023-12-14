@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
         <div className="md:col-span-8 grid grid-rows-2 gap-4">
           <div className="row-span-1 rounded-lg">
-            <h3 className="md:pr-20 pl-4 py-6 text-md md:text-3xl font-neuton">
+            <h3 className="md:pr-20 pl-4 py-6 text-md md:text-3xl font-neuton leading-relaxed">
               Hey there, I’m Graeme 👋 Welcome to my personal webspace 🌱{" "}
               <br></br>I like building things, and I’m currently helping to
               build Decode Care. <br></br>
