@@ -6,7 +6,7 @@ import RowFour from "@/components/RowFour";
 
 export default function Home() {
   return (
-    <main className="mx-6 grid grid-cols-1">
+    <main className="md:mx-6 py-10 md:py-0 grid grid-cols-1">
       <Hero />
       <RowOne />
       <RowTwo />

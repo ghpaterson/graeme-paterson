@@ -18,7 +18,7 @@ export default function Hero() {
           </div>
           <div
             alt="Graeme Portrait"
-            className="bg-Portrait bg-cover w-full h-72 md:h-[80%] flex flex-col rounded-md"
+            className="bg-Portrait bg-cover w-full h-80 md:h-[80%] flex flex-col rounded-md"
           />
           <div className="flex gap-2 items-center">
             <IoLocationOutline />

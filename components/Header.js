@@ -27,11 +27,11 @@ export default function NavBar() {
   return (
     <header className="sticky top-0 z-20 py-4 md:px-10 bg-bone">
       <div className="flex justify-between h-14 w-full items-center relative">
-        <div id="logo">
+        <div id="logo" className="">
           <Link href={"/"}>
             <h1
               onClick={closeMenu}
-              className="text-3xl w-60 z-0 pt-2 md:px-4 font-neuton"
+              className="text-3xl w-60 z-0 md:px-4 font-neuton"
             >
               GP
             </h1>
