@@ -23,7 +23,7 @@ export default function RowOne() {
           src={bloggyPhone}
           width={200}
           alt="Bloggy Phone"
-          className=" -rotate-20 mt-6 ml-20 md:ml-40 group-hover:scale-110 transition-transform"
+          className=" -rotate-20 mt-6 ml-20 md:ml-40 group-hover:scale-110 transition-transform drop-shadow-2xl"
         />
       </div>
       <div className="group md:col-span-4 rounded-lg bg-sand/30 hover:bg-sand px-4 flex flex-col justify-between py-4">

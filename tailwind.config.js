@@ -27,7 +27,7 @@ module.exports = {
       },
       colors: {
         bone: "#F6F6F6",
-        moss: "#E7F1BB",
+        moss: "#D6E0C7",
         thistle: "#D5C3D5",
         melon: "#EDB7AB",
         sand: "#EED0B6",
