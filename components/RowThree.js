@@ -12,7 +12,7 @@ export default function RowThree() {
       className="grid md:h-[55vh] grid-cols-1 md:grid-cols-12 gap-4 my-4"
     >
       <div className="group md:col-span-4 rounded-lg bg-melon/30 hover:bg-melon px-4 py-4 md:py-0">
-        <div className="flex justify-between py-4 items-center">
+        <div className="flex justify-between items-center">
           <h1>Hobbies - Cooking</h1>
           <Link href={alldayGoodsURL} target="_blank">
             <BsArrowUpRightCircle className="text-xl group-hover:scale-110" />
@@ -26,8 +26,8 @@ export default function RowThree() {
             width={150}
             className="rounded-lg"
           />
-          <div className="flex flex-col">
-            <h1 className="text-xl md:text-3xl py-2 font-neuton">
+          <div className="flex flex-col text-sm md:text-md">
+            <h1 className="text-2xl md:text-3xl py-2 font-neuton">
               Allday Goods
             </h1>
             <p>Kitchen Knives</p>

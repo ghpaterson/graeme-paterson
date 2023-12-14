@@ -17,7 +17,7 @@ export default function RowFour() {
           height={200}
           className="mt-6 mb-4 px-2 group-hover:scale-110 transition-transform"
         />
-        <h2 className="text-lg md:text-3xl font-neuton">Raw Data Feel</h2>
+        <h2 className="text-2xl md:text-3xl font-neuton">Raw Data Feel</h2>
         <h3 className="text-md md:text-lg text-gray-700">
           Everything Everything
         </h3>

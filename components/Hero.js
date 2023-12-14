@@ -11,12 +11,14 @@ export default function Hero() {
       >
         <div className=" md:col-span-4 rounded-lg bg-thistle px-6 py-6 flex flex-col gap-4">
           <div>
-            <h1 className="text-xl md:text-4xl font-neuton">Graeme Paterson</h1>
-            <h2 className="text-lg md:text-xl">Software Developer</h2>
+            <h1 className="text-2xl md:text-4xl font-neuton">
+              Graeme Paterson
+            </h1>
+            <h2 className="text-md md:text-xl">Software Developer</h2>
           </div>
           <div
             alt="Graeme Portrait"
-            className="bg-Portrait bg-cover w-full h-[80%] flex flex-col rounded-md"
+            className="bg-Portrait bg-cover w-full h-72 md:h-[80%] flex flex-col rounded-md"
           />
           <div className="flex gap-2 items-center">
             <IoLocationOutline />
