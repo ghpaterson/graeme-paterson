@@ -6,6 +6,13 @@ import { usePathname } from "next/navigation";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GiCrossedBones } from "react-icons/gi";
 
+const scrollToSection = (id) => {
+  const target = document.getElementById(id);
+  if (target) {
+    target.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
 const NavLink = ({ path, text, closeMenu }) => (
   <Link href={path}>
     <li
@@ -49,7 +56,15 @@ export default function NavBar() {
           <ul className="flex flex-col items-center w-screen gap-8 md:flex-row md:items-center md:justify-end text-2xl md:text-base md:py-0 py-10 cursor-pointer">
             <NavLink path="/projects" text="Projects" closeMenu={closeMenu} />
             <NavLink path="/about" text="About" closeMenu={closeMenu} />
-            <NavLink path="/contact" text="Contact" closeMenu={closeMenu} />
+            <h2
+              className="cursor-pointer"
+              onClick={() => {
+                closeMenu();
+                scrollToSection("footer");
+              }}
+            >
+              Contact
+            </h2>
           </ul>
         </nav>
       </div>
