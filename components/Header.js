@@ -49,7 +49,7 @@ export default function NavBar() {
           <ul className="flex flex-col items-center w-screen gap-8 md:flex-row md:items-center md:justify-end text-2xl md:text-base md:py-0 py-10 cursor-pointer">
             <NavLink path="/projects" text="Projects" closeMenu={closeMenu} />
             <NavLink path="/about" text="About" closeMenu={closeMenu} />
-            <NavLink path="#" text="Contact" closeMenu={closeMenu} />
+            <NavLink path="/contact" text="Contact" closeMenu={closeMenu} />
           </ul>
         </nav>
       </div>

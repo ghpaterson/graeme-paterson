@@ -1,3 +1,5 @@
+"use client";
+
 import { IoLocationOutline } from "react-icons/io5";
 import Link from "next/link";
 import { BsArrowUpRightCircle } from "react-icons/bs";
