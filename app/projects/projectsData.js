@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     title: "Ollie Scarth",
-    link: "#",
+    link: "https://ollie-scarth.vercel.app/",
     image: "/images/OllieDemoCombo.png",
     alt: "Ollie Scarth Mockup",
     bgColor: "bg-sand/30",
