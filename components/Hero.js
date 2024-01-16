@@ -5,6 +5,8 @@ import Link from "next/link";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 
 export default function Hero() {
+  const OllieScarthURL = "https://ollie-scarth.vercel.app/";
+
   return (
     <>
       <section
@@ -38,10 +40,10 @@ export default function Hero() {
               not as consistently, but I’m working on being better at that.
             </h3>
           </div>
-          <div className="group row-span-1 rounded-lg bg-moss/50 hover:bg-moss px-4 py-4">
+          <div className="group row-span-1 rounded-lg bg-moss/50 hover:bg-moss px-4 py-4 md:-mt-16">
             <div className="flex justify-between items-center">
               <h1>Projects - Ollie Scarth</h1>
-              <Link href="#" target="_blank">
+              <Link href={OllieScarthURL} target="_blank">
                 <BsArrowUpRightCircle className="text-xl group-hover:scale-110" />
               </Link>
             </div>
