@@ -26,7 +26,7 @@ export default function Hero() {
           />
           <div className="flex gap-2 items-center">
             <IoLocationOutline />
-            <p className="text-lg">London, UK</p>
+            <p className="text-lg">Brisbane, Australia</p>
           </div>
         </div>
         <div className="md:col-span-8 grid grid-rows-2 gap-4">

@@ -16,7 +16,7 @@ export default function Footer() {
           <p>Graeme Paterson</p>
           {/* <p>ghpaterson@gmail.com</p> */}
           <CopyEmailAddress />
-          <p>{`(+44) 7481844603`}</p>
+          <p>{`(+61) 416418324`}</p>
           <div className="flex gap-4 text-2xl items-center cursor-pointer">
             <Link href={linkedinURL} target="_blank" alt="link to linkedin">
               <FaLinkedin className="hover:scale-125 hover:text-melon" />
