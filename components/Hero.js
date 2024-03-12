@@ -18,11 +18,12 @@ export default function Hero() {
             <h1 className="text-2xl md:text-4xl font-neuton">
               Graeme Paterson
             </h1>
-            <h2 className="text-md md:text-xl">Software Developer</h2>
+            <h2 className="text-md md:text-lg pt-4">Software Developer &</h2>
+            <h2 className="text-md md:text-lg">Registered Paramedic</h2>
           </div>
           <div
             alt="Graeme Portrait"
-            className="bg-Portrait bg-cover w-full h-80 md:h-[80%] flex flex-col rounded-md"
+            className="bg-Portrait bg-cover w-full h-80 md:h-[70%] flex flex-col rounded-md"
           />
           <div className="flex gap-2 items-center">
             <IoLocationOutline />
@@ -32,12 +33,12 @@ export default function Hero() {
         <div className="md:col-span-8 grid grid-rows-2 gap-4">
           <div className="row-span-1 rounded-lg">
             <h3 className="md:pr-20 pl-4 py-6 text-md md:text-3xl font-neuton leading-relaxed">
-              Hey there, I’m Graeme 👋 Welcome to my personal webspace 🌱{" "}
+              Hey there, I’m Graeme 👋 Welcome to my personal webspace.{" "}
+              <br></br>I am a Registered Paramedic and a Software Developer.{" "}
               <br></br>I like building things, and I’m currently helping to
               build Decode Care. <br></br>
               In my free time, I enjoy brewing coffee, listening to music,
-              cooking and running. I do some reading and writing as well, albeit
-              not as consistently, but I’m working on being better at that.
+              cooking and running.
             </h3>
           </div>
           <div className="group row-span-1 rounded-lg bg-moss/50 hover:bg-moss px-4 py-4 md:-mt-16">
